@@ -32,5 +32,5 @@ bin/
 effective-java-practice.iml
 
 *.iml
-
+/.idea
 workspace.xml

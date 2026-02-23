@@ -58,8 +58,8 @@ public class PersonBuilderClass {
 
         private String isValidField(){
             String response = "";
-            if(firstName==null || firstName.isBlank()  )
-                return "First Name can't be null";
+            if(firstName==null || firstName.isBlank() || firstName.length()<2)
+                return "First Name can't be null and the length should be more than 2 letters";
 
             if(lastName==null || lastName.isBlank())
                 return "Last Name can't be null";
