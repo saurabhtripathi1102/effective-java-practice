@@ -1,4 +1,4 @@
-package d2_01;
+package builderpattern;
 /*
 * The main reason behind using static factory method is =
 * <b> The readability gets increased for the code</b>

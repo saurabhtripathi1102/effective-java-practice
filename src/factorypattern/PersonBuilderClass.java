@@ -1,4 +1,4 @@
-package d2_01;
+package factorypattern;
 
 public class PersonBuilderClass {
     private String firstName;
