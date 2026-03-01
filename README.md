@@ -18,7 +18,12 @@ Core Java fundamentals to AI integration.
 ## Structure
 ```
 src/
-└── builderpattern/
+└── factorypattern/
     ├── PersonBuilderClass.java    ← Builder Pattern
-    └── DatabaseConnection.java   ← Static Factory Methods
+└── builderpattern/
+    └── DatabaseConnection.java   ← Static Factory Methods    └── DatabaseConnection.java   ← Static Factory Methods
+└── singletonpattern/
+    └── AppConfig.java            ← Singleton pattern -Enum    
+    └── SingletonPattern.java     ← Singleton pattern -Class
+    
 ```
